@@ -1,0 +1,77 @@
+
+.eb-garamond {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  body {
+      font-family: eb-garamond;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+  }
+  
+  .date-entry {
+      display: flex;
+      justify-content: space-between; /* This will push the two spans to opposite ends */
+      margin-top: 10px;
+  }
+  
+  .resume-container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .right-align {
+      text-align: right;
+  }
+  
+  h1, h2 {
+      color: #333;
+  }
+  
+  h1 {
+      text-align: center;
+  }
+  
+  a {
+      color: #333;
+      text-decoration: none;
+      text-align: center;
+  }
+  
+  a:hover {
+      text-decoration: underline;
+  }
+  
+  .center {
+      text-align: center;
+  }
+  
+  p {
+      margin: 0.5em 0;
+  }
+  
+  ul {
+      list-style-type: disc;
+      margin-left: 20px;
+  }
+  
+  section {
+      margin-top: 20px;
+  }
+  
+  h2 {
+      border-bottom: 1px solid #333;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      font-size: 18px;
+  }
+  
